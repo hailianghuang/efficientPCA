@@ -1,5 +1,7 @@
 #!/bin/bash 
 
+#prepare the result directory
+mkdir ./example/result/
 
 #Generate the correlation matrix for all SNPs
 plink --bfile example/dat/example --r --matrix --out example/result/cor
