@@ -65,7 +65,7 @@ An example dataset was provided to demonstrate how to use efficientPCA.  This ex
 	> nSample=`wc -l ./example/dat/example.fam  | awk '{print $1}'`
 	> ./getMult $nSNP 100 $nSample ./example/result/
 
-4. Principal components are saved as ./example/dat/pcs.txt. 
+4. Principal components are saved as ./example/result/pcs.txt. 
 
 5. A R script (example/PCA_alt.r) calculates principal components in R and compares the components from effcientPCA.  
 
